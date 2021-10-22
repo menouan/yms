@@ -1,0 +1,29 @@
+/* css样式重置 */
+/* *通配符性能低 */
+body,p,h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  padding: 0;
+}
+/* a的下划线 */
+a {
+  text-decoration: none;
+}
+/* 列表的标识符ul,ol */
+ul,ol {
+  list-style: none;
+}
+/* 表格的间隙 */
+table {
+  border-collapse: collapse;
+}
+/* input输入框的轮廓线 */
+input {
+  outline: none;
+}
+/* 清除浮动的类 */
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+/* 左右浮动 */
